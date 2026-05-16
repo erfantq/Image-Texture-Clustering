@@ -474,7 +474,7 @@ Place the notebook and dataset folders in the same root directory.
 Install the required Python packages:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-image scikit-learn tqdm
+pip install -r requirements.txt
 ```
 
 Recommended Python version:
