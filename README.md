@@ -118,9 +118,11 @@ This file contains:
 - all extracted feature values.
 
 
-```markdown
-![Dataset overview and extracted features](docs/screenshots/01_dataset_and_features.png)
-```
+<figure>
+  <img src="docs/screenshots/01_dataset_and_features.png" alt="Dataset overview and extracted features" />
+  <figcaption>Dataset overview and extracted features</figcaption>
+</figure>
+
 
 ## Phase 2: Feature Selection
 
@@ -152,17 +154,20 @@ selected_features.csv
 This file stores the selected feature subset for later clustering and prediction phases.
 
 
-```markdown
-![Feature selection history](docs/screenshots/02_feature_selection_history.png)
-```
+<figure>
+  <img src="docs/screenshots/02_feature_selection_history.png" alt="Feature selection history" />
+  <figcaption>Feature selection history</figcaption>
+</figure>
 
-```markdown
-![Selected feature correlation heatmap](docs/screenshots/03_selected_feature_correlation_heatmap.png)
-```
+<figure>
+  <img src="docs/screenshots/03_selected_feature_correlation_heatmap.png" alt="Selected feature correlation heatmap" />
+  <figcaption>Selected feature correlation heatmap</figcaption>
+</figure>
 
-```markdown
-![Top Fisher scores](docs/screenshots/04_fisher_scores.png)
-```
+<figure>
+  <img src="docs/screenshots/04_fisher_scores.png" alt="Top Fisher scores" />
+  <figcaption>Top Fisher scores</figcaption>
+</figure>
 
 ## Phase 3: Clustering and Hyperparameter Tuning
 
@@ -240,15 +245,15 @@ Best reported MeanShift configuration:
 Representation: scaled
 Silhouette score: 0.6216
 ```
+<figure>
+  <img src="docs/screenshots/05_best_clustering_configurations.png" alt="Best clustering configurations" />
+  <figcaption>Best clustering configurations</figcaption>
+</figure>
 
-
-```markdown
-![Best clustering configurations](docs/screenshots/05_best_clustering_configurations.png)
-```
-
-```markdown
-![Top hyperparameter tuning tables](docs/screenshots/06_hyperparameter_tuning_tables.png)
-```
+<figure>
+  <img src="docs/screenshots/06_hyperparameter_tuning_tables.png" alt="Top hyperparameter tuning tables" />
+  <figcaption>Top hyperparameter tuning tables</figcaption>
+</figure>
 
 ## Cluster Heatmaps
 
@@ -262,21 +267,26 @@ Generated heatmaps:
 - MeanShift feature mean heatmap
 
 
-```markdown
-![KMeans cluster feature heatmap](docs/screenshots/07_kmeans_cluster_heatmap.png)
-```
+<figure>
+  <img src="docs/screenshots/07_kmeans_cluster_heatmap.png" alt="KMeans cluster feature heatmap" />
+  <figcaption>KMeans cluster feature heatmap</figcaption>
+</figure>
 
-```markdown
-![Agglomerative cluster feature heatmap](docs/screenshots/08_agglomerative_cluster_heatmap.png)
-```
+<figure>
+  <img src="docs/screenshots/08_agglomerative_cluster_heatmap.png" alt="Agglomerative cluster feature heatmap" />
+  <figcaption>Agglomerative cluster feature heatmap</figcaption>
+</figure>
 
-```markdown
-![DBSCAN cluster feature heatmap](docs/screenshots/09_dbscan_cluster_heatmap.png)
-```
+<figure>
+  <img src="docs/screenshots/09_dbscan_cluster_heatmap.png" alt="DBSCAN cluster feature heatmap" />
+  <figcaption>DBSCAN cluster feature heatmap</figcaption>
+</figure>
 
-```markdown
-![MeanShift cluster feature heatmap](docs/screenshots/10_meanshift_cluster_heatmap.png)
-```
+<figure>
+  <img src="docs/screenshots/10_meanshift_cluster_heatmap.png" alt="MeanShift cluster feature heatmap" />
+  <figcaption>MeanShift cluster feature heatmap</figcaption>
+</figure>
+
 
 ## Phase 4: Dimensionality Reduction and Visualization
 
@@ -293,9 +303,10 @@ The visualization includes:
 
 ### Required screenshot: PCA clustering visualization
 
-```markdown
-![PCA visualization of clustering results](docs/screenshots/11_pca_clustering_visualization.png)
-```
+<figure>
+  <img src="docs/screenshots/11_pca_clustering_visualization.png" alt="PCA visualization of clustering results" />
+  <figcaption>PCA visualization of clustering results</figcaption>
+</figure>
 
 ## Phase 5: Evaluation
 
@@ -356,9 +367,10 @@ Therefore, an algorithm may produce compact clusters with a good Silhouette Scor
 
 ### Required screenshot: evaluation table
 
-```markdown
-![Evaluation results table](docs/screenshots/12_evaluation_results.png)
-```
+<figure>
+  <img src="docs/screenshots/12_evaluation_results.png" alt="Evaluation results table" />
+  <figcaption>Evaluation results table</figcaption>
+</figure>
 
 ## Phase 6: Prediction on Test Images
 
@@ -386,22 +398,24 @@ MeanShift test accuracy: 0.5556
 
 ### Required screenshot: test prediction table
 
-```markdown
-![Test image prediction table](docs/screenshots/13_test_prediction_table.png)
-```
+<figure>
+  <img src="docs/screenshots/13_test_prediction_table.png" alt="Test image prediction table" />
+  <figcaption>Test image prediction table</figcaption>
+</figure>
 
 ### Required screenshot: test accuracy output
 
-```markdown
-![Test accuracy results](docs/screenshots/14_test_accuracy_results.png)
-```
+<figure>
+  <img src="docs/screenshots/14_test_accuracy_results.png" alt="Test accuracy results" />
+  <figcaption>Test accuracy results</figcaption>
+</figure>
 
 ### Required screenshot: test image retrieval examples
 
-
-```markdown
-![Test sample with two cluster peers](docs/screenshots/15_test_cluster_retrieval_examples.png)
-```
+<figure>
+  <img src="docs/screenshots/15_test_cluster_retrieval_examples" alt="Test sample with two cluster peers" />
+  <figcaption>Test sample with two cluster peers</figcaption>
+</figure>
 
 ## Generated Files
 
